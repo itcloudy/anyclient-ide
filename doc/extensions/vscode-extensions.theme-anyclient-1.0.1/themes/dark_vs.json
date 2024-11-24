@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color.theme",
-  "name": "ClientBiz Dark",
+  "name": "AnyClient Dark",
   "colors": {
     //#0078d4 统一替换为#5a27b5
     "foreground": "#cccccc",

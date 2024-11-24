@@ -153,8 +153,8 @@ renderApp({
   ],
   layoutConfig: customLayoutConfig,
   defaultPreferences: {
-    'general.theme': 'clientbiz-dark',//'opensumi-dark',//
+    'general.theme': 'anyclient-dark',//'opensumi-dark',//
     'general.icon': 'vscode-icons',
   },
-  appName: 'ClientBiz'
+  appName: 'AnyClient'
 });

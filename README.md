@@ -1,19 +1,17 @@
 <p align="center">
-	<a href="https://www.clientbiz.cn"><img src="./doc/icons/clientbiz.ico" width="150" /></a>
+	<a href="https://www.clientbiz.cn"><img src="./doc/icons/anyclient.ico" width="150" /></a>
 </p>
-<h1 align="center">ClientBiz IDE </h1>
+<h1 align="center">AnyClient IDE </h1>
 
-[官网地址](https://www.clientbiz.cn)
+[官网地址](https://www.anyclient.cn)
 
-[ClientBiz Web 版本请移步此处（源码地址）](https://github.com/hanbingzi/clientbiz-web)
+[AnyClient Web 版本请移步此处（源码地址）](https://github.com/hanbingzi/anyclient-web)
 
-ClientBiz是一款开源的，支持WEB和客户端版本，能够连接各种类型的关系数据库、非关系型数据库、时序数据库、图数据库、消息队列、注册中心等数据服务的管理软件。
+AnyClient是一款开源的，支持WEB和客户端版本，能够连接各种类型的关系数据库、非关系型数据库、时序数据库、图数据库、消息队列、注册中心等数据服务的管理软件。
 
-![perview](./doc/images/clientbiz-main.jpg)
+![perview](./doc/images/anyclient-main.jpg)
 
-
-
-<h2 align="center">ClientBiz当前支持的客户端 </h2>
+<h2 align="center">AnyClient当前支持的客户端 </h2>
 
 |                        -                        |                       -                        |                        -                         |                     -                      |                       -                        |                   -                    |
 |:-----------------------------------------------:|:----------------------------------------------:|:------------------------------------------------:|:------------------------------------------:|:----------------------------------------------:|:--------------------------------------:|
@@ -191,8 +189,8 @@ ClientBiz是一款开源的，支持WEB和客户端版本，能够连接各种�
 ## 三：运行代码
 
 ```bash
-$ git clone https://github.com/hanbingzi/clientbiz-ide.git
-$ cd clientbiz-ide
+$ git clone https://github.com/hanbingzi/anyclient-ide.git
+$ cd anyclient-ide
 $ yarn
 $ yarn build
 $ yarn rebuild-native --force-rebuild=true

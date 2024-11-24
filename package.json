@@ -1,8 +1,8 @@
 {
-  "name": "ide-electron",
+  "name": "anyclient-ide",
   "private": true,
   "version": "1.0.0",
-  "description": "OpenSumi IDE Electron 示例项目",
+  "description": "AnyClient IDE Electron 示例项目",
   "main": "./app/main/index.js",
   "scripts": {
     "start": "electron --inspect=9229 .",

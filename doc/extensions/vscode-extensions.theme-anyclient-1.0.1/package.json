@@ -1,5 +1,5 @@
 {
-  "name": "clientbiz-theme",
+  "name": "anyclient-theme",
   "displayName": "%displayName%",
   "description": "%description%",
   "categories": [
@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "id": "clientbiz-dark",
+        "id": "anyclient-dark",
         "label": "%darkColorThemeLabel%",
         "uiTheme": "vs-dark",
         "path": "./themes/dark_vs.json"

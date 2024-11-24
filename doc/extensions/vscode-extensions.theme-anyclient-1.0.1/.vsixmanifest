@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="clientbiz-theme" Version="1.0.1" Publisher="vscode"/>
-    <DisplayName>ClientBiz Themes</DisplayName>
-    <Description xml:space="preserve">The default ClientBiz light and dark themes</Description>
+    <Identity Language="en-US" Id="anyclient-theme" Version="1.0.1" Publisher="vscode"/>
+    <DisplayName>AnyClient Themes</DisplayName>
+    <Description xml:space="preserve">The default AnyClient light and dark themes</Description>
     <Tags>theme,color-theme,icon-theme</Tags>
     <Categories>Themes</Categories>
     <GalleryFlags>Public</GalleryFlags>

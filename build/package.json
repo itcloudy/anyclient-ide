@@ -1,8 +1,8 @@
 {
-  "name": "clientbiz-desktop",
+  "name": "anyclient-desktop",
   "version": "1.2.1",
   "main": "main/index.js",
-  "description": "ClientBiz Desktop",
+  "description": "AnyClient Desktop",
   "private": true,
   "dependencies": {
     "@opensumi/vscode-ripgrep": "^1.4.0",

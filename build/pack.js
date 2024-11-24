@@ -58,9 +58,9 @@ electronBuilder.build({
       oneClick: false, // 是否一键安装
       allowElevation: true, // 允许请求提升。 如果为false，则用户必须使用提升的权限重新启动安装程序。
       allowToChangeInstallationDirectory: true, // 允许修改安装目录
-      // installerIcon: ".build/icon/clientbiz.ico",// 安装图标
-      // uninstallerIcon: "build/icon/clientbiz.ico",//卸载图标
-      // installerHeaderIcon: "build/icon/clientbiz.ico", // 安装时头部图标
+      // installerIcon: ".build/icon/anyclient.ico",// 安装图标
+      // uninstallerIcon: "build/icon/anyclient.ico",//卸载图标
+      // installerHeaderIcon: "build/icon/anyclient.ico", // 安装时头部图标
       createDesktopShortcut: true, // 创建桌面图标
       createStartMenuShortcut: true, // 创建开始菜单图标
     },
@@ -70,13 +70,13 @@ electronBuilder.build({
     asar: true,
     asarUnpack: ['node_modules/@opensumi/vscode-ripgrep'],
     mac: {
-      icon: 'build/icon/clientbiz.png',
+      icon: 'build/icon/anyclient.png',
       artifactName: '${productName}-${version}_mac-${arch}.${ext}',
       target: 'dmg',
     },
     win: {
       artifactName: '${productName}-${version}_windows-${arch}.${ext}',
-      icon: 'build/icon/clientbiz.ico',
+      icon: 'build/icon/anyclient.ico',
       target: [
         {
           target: 'nsis',
@@ -86,7 +86,7 @@ electronBuilder.build({
     },
     linux: {
       artifactName: '${productName}-${version}-${arch}.${ext}',
-      icon: 'build/icon/clientbiz.png',
+      icon: 'build/icon/anyclient.png',
       target: [
         {
           target: 'deb',
