@@ -1,0 +1,12 @@
+{
+  "productName": "ClientBiz",
+  "version": "1.2.1",
+  "nameShort": "ClientBiz",
+  "nameLong": "ClientBiz",
+  "applicationName": "clientbiz",
+  "dataFolderName": ".clientbiz",
+  "urlProtocol": "clientbiz",
+  "serverApp": { "marketplace": {} },
+  "devtoolFrontendUrl": "",
+  "sumiVersion": "2.27.2"
+}
