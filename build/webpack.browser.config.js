@@ -38,7 +38,7 @@ module.exports = createConfig({
         type: 'javascript/auto',
       },
       {
-        test: /\.png$/,
+        test: /\.(png|jpg)$/,
         type: 'asset/resource',
       },
       {

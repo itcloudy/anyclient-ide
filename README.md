@@ -204,8 +204,8 @@ $ yarn start
 
 开源创作不易，请多支持
 <div>
-  <img src="./doc/images/wechat-pay.jpg" width="300">
-  <img src="./doc/images/zhifubao-pay.jpg" width="300">
+  <img src="./doc/images/pay.jpg" width="600">
+  
 </div>
 
 ## 商务联系

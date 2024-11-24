@@ -21,8 +21,8 @@ export class AdminService {
   public async onStart() {
     setTimeout(() => {
       console.log('--------admin start--------');
-      this.adminClientService.login();
-      this.adminClientService.onStart();
+      //this.adminClientService.login();
+      //this.adminClientService.onStart();
     }, 3000);
   }
 
