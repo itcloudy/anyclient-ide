@@ -1,11 +1,11 @@
 {
-  "productName": "ClientBiz",
+  "productName": "AnyClient",
   "version": "1.2.1",
-  "nameShort": "ClientBiz",
-  "nameLong": "ClientBiz",
-  "applicationName": "clientbiz",
-  "dataFolderName": ".clientbiz",
-  "urlProtocol": "clientbiz",
+  "nameShort": "AnyClient",
+  "nameLong": "AnyClient",
+  "applicationName": "anyclient",
+  "dataFolderName": ".anyclient",
+  "urlProtocol": "anyclient",
   "serverApp": { "marketplace": {} },
   "devtoolFrontendUrl": "",
   "sumiVersion": "2.27.2"

@@ -7,6 +7,12 @@
 
 [AnyClient Web 版本请移步此处（源码地址）](https://github.com/hanbingzi/anyclient-web)
 
+![github](./doc/icons/main/github.svg)
+[GitHub主页地址](https://github.com/hanbingzi)
+
+![gitee](./doc/icons/main/gitee.svg)
+[Gitee主页地址](https://gitee.com/hanbingzi)
+
 AnyClient是一款开源的，支持WEB和客户端版本，能够连接各种类型的关系数据库、非关系型数据库、时序数据库、图数据库、消息队列、注册中心等数据服务的管理软件。
 
 ![perview](./doc/images/anyclient-main.jpg)
@@ -22,15 +28,24 @@ AnyClient是一款开源的，支持WEB和客户端版本，能够连接各种�
 |      ![etcd](./doc/icons/server/etcd.svg)       |  ![TDEngine](./doc/icons/server/tdengine.svg)  | ![clickhouse](./doc/icons/server/clickhouse.svg) |  ![Presto](./doc/icons/server/presto.svg)  |     ![trino](./doc/icons/server/trino.svg)     |                                        |
 |                      Etcd                       |                    TDEngine                    |                    ClickHouse                    |                   Presto                   |                     Trino                      |                                        |
 
+<h2 align="center">AnyClient下一步将要支持的客户端 </h2>
+
+|                        -                         |                      -                       |                     -                      |                   -                    |                  -                  |                    -                     |
+|:------------------------------------------------:|:--------------------------------------------:|:------------------------------------------:|:--------------------------------------:|:-----------------------------------:|:----------------------------------------:|
+| ![elasticsearch](./doc/icons/server/elastic.svg) | ![InfluxDB](./doc/icons/server/influxdb.svg) | ![MongoDB](./doc/icons/server/mongodb.svg) |  ![Emq](./doc/icons/server/emqx.svg) | ![rdjc](./doc/icons/server/rdjc.svg) | ![sqlite](./doc/icons/server/sqlite.svg) |
+|                  Elasticsearch                   |                   Influxdb                   |                  MongoDB                   |                  Emq                   |                人大金仓                 |                  Sqlite                  |
+|     ![Hive](./doc/icons/server/hive.svg)     |   ![Neo4j](./doc/icons/server/neo4j.svg)   |                                        |                                     ||
+|                     Hive                     |                   Neo4j                    |                                        |                                     | |                                          |
+
 ## 一：功能特点
 
-- 开源免费
-- 支持web和客户端方式安装
-- 传统IDE方式管理SQL及其他语言脚本
-- 方便的Git管理SQL及其他语言脚本
-- 丰富的第三方客户端支持
-- 优秀的智能脚本语言提示
-- 可视化操作的SQL查询结果展示
+- **开源免费**
+- **支持web和客户端方式安装**
+- **传统IDE方式管理SQL及其他语言脚本**
+- **方便的Git管理SQL及其他语言脚本**
+- **丰富的第三方客户端支持**
+- **优秀的智能脚本语言提示**
+- **可视化操作的SQL查询结果展示**
 
 ## 二：支持的客户端功能介绍
 
