@@ -40,15 +40,25 @@ AnyClient是一款开源的，支持WEB和客户端版本，能够连接各种�
 ## 一：功能特点
 
 - **开源免费**
-- **支持web和客户端方式安装**
-- **传统IDE方式管理SQL及其他语言脚本**
+- **安装包、WEB、Docker方式安装使用**
+- **丰富的表数据编辑，表结构修改编辑、SQL编辑器，执行SQL查询和脚本等**
 - **方便的Git管理SQL及其他语言脚本**
 - **丰富的第三方客户端支持**
 - **优秀的智能脚本语言提示**
-- **可视化操作的SQL查询结果展示**
+- **基于OpenSumi二次魔改，支持VSCODE插件**
 
-## 二：支持的客户端功能介绍
 
+## 二：AnyClient功能截图
+
+### 安装包、WEB、Docker方式安装使用
+![](./doc/images/anyclient-ide-web.jpg)
+### 多种主题切换
+![](./doc/images/multi-theme.jpg)
+### 使用GIT管理脚本
+![](./doc/images/anyclient-ide-git.jpg)
+
+
+## 三：AnyClient客户端功能
 ### 1.数据库支持功能
 包括：Mysql，Oracle，Postgresql，Mariadb，SqlServer，达梦，TiDB，OceanBase，DB2，ClickHouse，Presto，Trino，TDEngine
 ```bash
@@ -201,7 +211,7 @@ AnyClient是一款开源的，支持WEB和客户端版本，能够连接各种�
 #### Etcd操作主界面
 ![](./doc/images/etcd-main.jpg)
 
-## 三：运行代码
+## 四：运行代码
 
 ```bash
 $ git clone https://github.com/hanbingzi/anyclient-ide.git
