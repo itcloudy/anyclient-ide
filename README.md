@@ -11,7 +11,7 @@
 平台上面的右上角点个⭐ Star ，您的支持是 AnyClient 开源的最大的动力
 </div>
 
-[官网地址](https://www.anyclient.cn)
+[官网地址](https://www.clientbiz.cn)
 
 [AnyClient Web 版本请移步此处（源码地址）](https://github.com/hanbingzi/anyclient-web)
 
