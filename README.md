@@ -1,3 +1,11 @@
+<div align="center">
+<img src="./doc/icons/weixinqun.jpg" width="200px"/>
+
+<img src="./doc/icons/weixingzh.jpg" width="200px" style="margin-left: 10px"/>
+
+加群前请一定要Star，有什么疑问，可以加群沟通。关注公众号，获取AnyClient最新动态。（加群前请一定要Star！！！ ，跪谢）
+</div>
+
 <p align="center">
 	<a href="https://www.clientbiz.cn"><img src="./doc/icons/anyclient.ico" width="150" /></a>
 </p>
