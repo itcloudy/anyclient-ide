@@ -1,5 +1,5 @@
 <div align="center">
-    <div style="display: flex">
+    <div style="display: flex;flex-direction: row">
         <div>
             <h3>微信群</h3>
             <img src="./doc/icons/weixinqun.jpg" width="200px"/>
