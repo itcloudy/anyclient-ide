@@ -1,9 +1,17 @@
 <div align="center">
-<img src="./doc/icons/weixinqun.jpg" width="200px"/>
-
-<img src="./doc/icons/weixingzh.jpg" width="200px" style="margin-left: 10px"/>
-
-加群前请一定要Star，有什么疑问，可以加群沟通。关注公众号，获取AnyClient最新动态。（加群前请一定要Star！！！ ，跪谢）
+    <div style="display: flex">
+        <div>
+            <h3>微信群</h3>
+            <img src="./doc/icons/weixinqun.jpg" width="200px"/>
+        </div>
+        <div style="margin-left: 20px">
+            <h3>公众号</h3>
+            <img src="./doc/icons/weixingzh.jpg" width="200px" />
+        </div>
+    </div>
+<br/>
+加群前请一定要Star，有什么疑问，可以加群沟通。关注公众号，获取AnyClient最新动态。<br/>
+（加群前请一定要Star！！！ ，跪谢）
 </div>
 
 <p align="center">
@@ -14,8 +22,10 @@
 <div align="center">
 
 如果觉得 AnyClient 对您有帮助的话，请帮忙在
-<a target="_blank" href='https://gitee.com/hanbingzi/anyclient-ide'>gitee<img src="./doc/icons/main/gitee.svg" alt="github star"/></a>或
-<a target="_blank" href='https://github.com/hanbingzi/anyclient-ide'>github<img src="./doc/icons/main/github.svg" alt="github star"/></a>
+<a target="_blank" href='https://gitee.com/hanbingzi/anyclient-ide'>
+gitee<img src="./doc/icons/main/gitee.svg" alt="github star"/></a>或
+<a target="_blank" href='https://github.com/hanbingzi/anyclient-ide'>
+github<img src="./doc/icons/main/github.svg" alt="github star"/></a>
 平台上面的右上角点个⭐ Star ，您的支持是 AnyClient 开源的最大的动力
 </div>
 
@@ -35,23 +45,23 @@ AnyClient是一款开源的，支持WEB、Dokcer、客户端版本，能够连�
 
 <h2 align="center">AnyClient当前支持的客户端 </h2>
 
-|                        -                        |                       -                        |                        -                         |                     -                      |                       -                        |                   -                    |
-|:-----------------------------------------------:|:----------------------------------------------:|:------------------------------------------------:|:------------------------------------------:|:----------------------------------------------:|:--------------------------------------:|
-|     ![mysql](./doc/icons/server/mysql.svg)      | ![postgresql](./doc/icons/server/postgre.svg)  |     ![oracle](./doc/icons/server/oracle.svg)     | ![mariadb](./doc/icons/server/mariadb.svg) |   ![redis](./doc/icons/server/sqlserver.svg)   | ![redis](./doc/icons/server/redis.svg) |
-|                      Mysql                      |                   Postgresql                   |                      Oracle                      |                  Mariadb                   |                   SqlServer                    |                 Redis                  |
-| ![zookeeper](./doc/icons/server/zookeeper.svg)  |     ![kafka](./doc/icons/server/kafka.svg)     |         ![dm](./doc/icons/server/dm.svg)         |    ![tidb](./doc/icons/server/tidb.svg)    | ![oceanbase](./doc/icons/server/oceanbase.svg) |   ![db2](./doc/icons/server/db2.svg)   |
-|                    Zookeeper                    |                     Kafka                      |                        达梦                        |                    TiDB                    |                   oceanbase                    |                  DB2                   |
-|      ![etcd](./doc/icons/server/etcd.svg)       |  ![TDEngine](./doc/icons/server/tdengine.svg)  | ![clickhouse](./doc/icons/server/clickhouse.svg) |  ![Presto](./doc/icons/server/presto.svg)  |     ![trino](./doc/icons/server/trino.svg)     |                                        |
-|                      Etcd                       |                    TDEngine                    |                    ClickHouse                    |                   Presto                   |                     Trino                      |                                        |
+|                       -                        |                       -                       |                        -                         |                     -                      |                       -                        |                   -                    |
+|:----------------------------------------------:|:---------------------------------------------:|:------------------------------------------------:|:------------------------------------------:|:----------------------------------------------:|:--------------------------------------:|
+|     ![mysql](./doc/icons/server/mysql.svg)     | ![postgresql](./doc/icons/server/postgre.svg) |     ![oracle](./doc/icons/server/oracle.svg)     | ![mariadb](./doc/icons/server/mariadb.svg) |   ![redis](./doc/icons/server/sqlserver.svg)   | ![redis](./doc/icons/server/redis.svg) |
+|                     Mysql                      |                  Postgresql                   |                      Oracle                      |                  Mariadb                   |                   SqlServer                    |                 Redis                  |
+| ![zookeeper](./doc/icons/server/zookeeper.svg) |    ![kafka](./doc/icons/server/kafka.svg)     |         ![dm](./doc/icons/server/dm.svg)         |    ![tidb](./doc/icons/server/tidb.svg)    | ![oceanbase](./doc/icons/server/oceanbase.svg) |   ![db2](./doc/icons/server/db2.svg)   |
+|                   Zookeeper                    |                     Kafka                     |                        达梦                        |                    TiDB                    |                   oceanbase                    |                  DB2                   |
+|      ![etcd](./doc/icons/server/etcd.svg)      | ![TDEngine](./doc/icons/server/tdengine.svg)  | ![clickhouse](./doc/icons/server/clickhouse.svg) |  ![Presto](./doc/icons/server/presto.svg)  |     ![trino](./doc/icons/server/trino.svg)     |                                        |
+|                      Etcd                      |                   TDEngine                    |                    ClickHouse                    |                   Presto                   |                     Trino                      |                                        |
 
 <h2 align="center">AnyClient下一步将要支持的客户端 </h2>
 
-|                        -                         |                      -                       |                     -                      |                   -                    |                  -                  |                    -                     |
-|:------------------------------------------------:|:--------------------------------------------:|:------------------------------------------:|:--------------------------------------:|:-----------------------------------:|:----------------------------------------:|
-| ![elasticsearch](./doc/icons/server/elastic.svg) | ![InfluxDB](./doc/icons/server/influxdb.svg) | ![MongoDB](./doc/icons/server/mongodb.svg) |  ![Emq](./doc/icons/server/emqx.svg) | ![rdjc](./doc/icons/server/rdjc.svg) | ![sqlite](./doc/icons/server/sqlite.svg) |
-|                  Elasticsearch                   |                   Influxdb                   |                  MongoDB                   |                  Emq                   |                人大金仓                 |                  Sqlite                  |
-|     ![Hive](./doc/icons/server/hive.svg)     |   ![Neo4j](./doc/icons/server/neo4j.svg)   |                                        |                                     ||
-|                     Hive                     |                   Neo4j                    |                                        |                                     | |                                          |
+|                        -                         |                      -                       |                     -                      |                  -                  |                  -                   |                    -                     |
+|:------------------------------------------------:|:--------------------------------------------:|:------------------------------------------:|:-----------------------------------:|:------------------------------------:|:----------------------------------------:|
+| ![elasticsearch](./doc/icons/server/elastic.svg) | ![InfluxDB](./doc/icons/server/influxdb.svg) | ![MongoDB](./doc/icons/server/mongodb.svg) | ![Emq](./doc/icons/server/emqx.svg) | ![rdjc](./doc/icons/server/rdjc.svg) | ![sqlite](./doc/icons/server/sqlite.svg) |
+|                  Elasticsearch                   |                   Influxdb                   |                  MongoDB                   |                 Emq                 |                 人大金仓                 |                  Sqlite                  |
+|       ![Hive](./doc/icons/server/hive.svg)       |    ![Neo4j](./doc/icons/server/neo4j.svg)    |                                            |                                     |                                      |
+|                       Hive                       |                    Neo4j                     |                                            |                                     |                                      |                                          |
 
 ## 一：功能特点
 
@@ -63,20 +73,26 @@ AnyClient是一款开源的，支持WEB、Dokcer、客户端版本，能够连�
 - **优秀的智能脚本语言提示**
 - **基于OpenSumi二次魔改，支持VSCODE插件**
 
-
 ## 二：AnyClient功能截图
 
 ### 安装包、WEB、Docker方式安装使用
+
 ![](./doc/images/anyclient-ide-web.jpg)
+
 ### 多种主题切换
+
 ![](./doc/images/multi-theme.jpg)
+
 ### 使用GIT管理脚本
+
 ![](./doc/images/anyclient-ide-git.jpg)
 
-
 ## 三：AnyClient客户端功能
+
 ### 1.数据库支持功能
+
 包括：Mysql，Oracle，Postgresql，Mariadb，SqlServer，达梦，TiDB，OceanBase，DB2，ClickHouse，Presto，Trino，TDEngine
+
 ```bash
 ├── 数据库  
 │   └── 右键
@@ -142,9 +158,13 @@ AnyClient是一款开源的，支持WEB、Dokcer、客户端版本，能够连�
     ├── 删除
     └── 查看创建sql
 ```
+
 #### Mysql数据查询
+
 ![](./doc/images/mysql-main1.jpg)
+
 #### sql 智能补充
+
 ![](./doc/images/intelli-sense-sql.jpg)
 
 ### 2.Redis支持功能
@@ -184,6 +204,7 @@ AnyClient是一款开源的，支持WEB、Dokcer、客户端版本，能够连�
 ```
 
 #### Redis操作主界面
+
 ![](./doc/images/redis-main.jpg)
 
 ### 3.Zookeeper支持功能
@@ -193,38 +214,45 @@ AnyClient是一款开源的，支持WEB、Dokcer、客户端版本，能够连�
 3. 修改key
 
 #### Zookeeper操作主界面
+
 ![](./doc/images/zookeeper-main.jpg)
 
 ### 4.Kafka支持功能
+
 1. 消息
-   - 查询消息
-   - 新增消息
+    - 查询消息
+    - 新增消息
 2. topic
-   - 新建topic
+    - 新建topic
 3. Broker查看
 4. Group查看
 
-#### Kafka操作主界面 
+#### Kafka操作主界面
+
 ![](./doc/images/kafka-main.jpg)
 
-
 ### 5.Etcd支持功能
+
 1. Data
-  - 查询
-  - 修改
-  - 删除
-  - 新增
+
+- 查询
+- 修改
+- 删除
+- 新增
+
 2. Security
-  - 用户
+
+- 用户
     - 新增
     - 删除
-  - 角色
+- 角色
     - 新增
     - 删除
+
 3. Cluster查询
 
-
 #### Etcd操作主界面
+
 ![](./doc/images/etcd-main.jpg)
 
 ## 四：运行代码
@@ -238,13 +266,12 @@ $ yarn rebuild-native --force-rebuild=true
 $ yarn start
 ```
 
-
 ## 捐献作者
 
 开源创作不易，请多支持
 <div>
   <img src="./doc/images/pay.jpg" width="600">
-  
+
 </div>
 
 ## 商务联系
@@ -257,7 +284,6 @@ $ yarn start
 </div>
 
 ## 最后
-
 
 ## License
 
