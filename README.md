@@ -1,15 +1,9 @@
+
+|                           微信群                           |                           公众号                            |
+|:-----------------------------------------------------:|:------------------------------------------------------:|
+| <img src="./doc/icons/weixinqun.jpg" width="200px"/>  | <img src="./doc/icons/weixingzh.jpg" width="200px" />  |
+
 <div align="center">
-    <div style="display: flex;flex-direction: row">
-        <div>
-            <h3>微信群</h3>
-            <img src="./doc/icons/weixinqun.jpg" width="200px"/>
-        </div>
-        <div style="margin-left: 20px">
-            <h3>公众号</h3>
-            <img src="./doc/icons/weixingzh.jpg" width="200px" />
-        </div>
-    </div>
-<br/>
 加群前请一定要Star，有什么疑问，可以加群沟通。关注公众号，获取AnyClient最新动态。<br/>
 （加群前请一定要Star！！！ ，跪谢）
 </div>
