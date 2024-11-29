@@ -3,6 +3,14 @@
 </p>
 <h1 align="center">AnyClient IDE </h1>
 
+<div align="center">
+
+如果觉得 AnyClient 对您有帮助的话，请帮忙在
+<a target="_blank" href='https://gitee.com/hanbingzi/anyclient-ide'>gitee<img src="./doc/icons/main/gitee.svg" alt="github star"/></a>或
+<a target="_blank" href='https://github.com/hanbingzi/anyclient-ide'>github<img src="./doc/icons/main/github.svg" alt="github star"/></a>
+平台上面的右上角点个⭐ Star ，您的支持是 AnyClient 开源的最大的动力
+</div>
+
 [官网地址](https://www.anyclient.cn)
 
 [AnyClient Web 版本请移步此处（源码地址）](https://github.com/hanbingzi/anyclient-web)
@@ -13,7 +21,7 @@
 ![gitee](./doc/icons/main/gitee.svg)
 [Gitee主页地址](https://gitee.com/hanbingzi)
 
-AnyClient是一款开源的，支持WEB和客户端版本，能够连接各种类型的关系数据库、非关系型数据库、时序数据库、图数据库、消息队列、注册中心等数据服务的管理软件。
+AnyClient是一款开源的，支持WEB、Dokcer、客户端版本，能够连接各种类型的关系数据库、非关系型数据库、时序数据库、图数据库、消息队列、注册中心等数据服务的管理软件，支持Mac和Windows平台安装部署。
 
 ![perview](./doc/images/anyclient-main.jpg)
 
