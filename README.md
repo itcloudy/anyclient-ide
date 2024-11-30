@@ -249,7 +249,24 @@ AnyClient是一款开源的，支持WEB、Dokcer、客户端版本，能够连�
 
 ![](./doc/images/etcd-main.jpg)
 
-## 四：运行代码
+## 四：Mac安装报错
+
+### mac 首次安装会报如下错误：
+
+![](./doc/images/mac_install_error.jpg)
+
+### 解决办法
+1. 打开终端，输入命令：
+```
+xattr -cr
+```
+2. 打开应用程序目录，拖动安装好的App到终端并按下回车键。
+![](./doc/images/mac_resolve.jpg)
+
+如果不能解决以上问题，可以参考：https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4455544948389474091
+
+
+## 五：运行代码
 
 ```bash
 $ git clone https://github.com/hanbingzi/anyclient-ide.git
