@@ -223,6 +223,8 @@ export function DataEditor({
       const regex = /^-?\d+(\.\d+)?$/;
       if (regex.test(value)) {
         setCurrentValue(value);
+      }else if(isEmpty(value)){
+        setCurrentValue(value);
       }
     } else {
       setCurrentValue(value);
@@ -235,7 +237,7 @@ export function DataEditor({
   // };
 
   const handleTimeChange = (newValue: string) => {
-    ////console.log('handleTimeChange-->:', newValue);
+    // console.log('handleTimeChange-->:', newValue);
     setCurrentValue(newValue);
     //时间点击完成，开启点击外部提交数值
     //enableClickOutSide!()
@@ -248,7 +250,7 @@ export function DataEditor({
   };
 
   const handleKey = (e: React.KeyboardEvent) => {
-    ////console.log('cell handleKey');
+    // console.log('cell handleKey');
     const keyCode = e.which || e.keyCode;
 
     if (keyCode === ENTER_KEY || keyCode === TAB_KEY) {
@@ -263,7 +265,7 @@ export function DataEditor({
     //console.log('handleCommit被执行的newValue', newValue, ';currentValue', currentValue);
     if (commit) {
       commit(newValue !== undefined ? newValue : currentValue, e);
-      //  //console.log('handleCommit BEFORE,newValue', newValue, ';currentValue:', currentValue, ';initialValue:', initialValue)
+      //   console.log('handleCommit BEFORE,newValue', newValue, ';currentValue:', currentValue, ';initialValue:', initialValue)
       // if (isAdd) {
       //   if (currentValue || newValue !== undefined) {
       //   }
@@ -332,11 +334,11 @@ export function DataEditor({
         style={{ width: '100%' }}
         //onKeyDown={handleKey}
         onChange={(m, ds) => {
-//console.log('onChange DatePicker', ds);
+          console.log('onChange DatePicker', ds);
           handleTimeChange(ds);
         }}
         onOk={(m) => {
-//console.log('onOk-->');
+          console.log('onOk-->');
         }}
         size={'small'}
         showTime={showTime}
@@ -532,7 +534,7 @@ export function EditViewer({
     commit!(value);
   };
   const clickTest = () => {
-   //console.log('clickTest被执行的newValue', currentValue);
+    console.log('clickTest被执行的newValue', currentValue);
   };
 
   if (inputType === 'checkbox') {
